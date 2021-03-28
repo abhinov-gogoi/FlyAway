@@ -1,0 +1,4 @@
+        1// if 404 jakarta error use tomcat 9
+        2// if artifact deploy fail see web.xml url pattern
+        3//stackoverflow.com/questions/11731377/servlet-returns-http-status-404-the-requested-resource-servlet-is-not-availa
+        4// if mysql connector is not able to fetch in JSP, put mysqlconnectorjar into WEB-INF/lib folder - https://stackoverflow.com/questions/1585811/classnotfoundexception-com-mysql-jdbc-driver
