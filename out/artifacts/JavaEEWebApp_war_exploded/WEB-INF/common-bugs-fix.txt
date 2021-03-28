@@ -3,3 +3,13 @@
         3//stackoverflow.com/questions/11731377/servlet-returns-http-status-404-the-requested-resource-servlet-is-not-availa
         4// if mysql connector is not able to fetch in JSP, put mysqlconnectorjar into WEB-INF/lib folder - https://stackoverflow.com/questions/1585811/classnotfoundexception-com-mysql-jdbc-driver
         5// first time setting up this project - see that web artifact (war) is deployed properly and configure with tomcat (9.0) server
+        6// if using tomcat 10 and above use jakartax instead javax in import
+
+        remote mySQL
+        You have successfully created a new database. The details are below.
+        Username: XxYrWXRjWf
+        Database name: XxYrWXRjWf
+        Password: CcEE3g9IWg
+        Server: remotemysql.com
+        Port: 3306
+        These are the username and password to log in to your database and phpMyAdmin

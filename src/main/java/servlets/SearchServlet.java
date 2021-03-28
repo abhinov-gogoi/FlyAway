@@ -1,9 +1,7 @@
 package servlets;
 
-//import javax.servlet.http.*; // doesn't work anymore in Servlet 5.0 or newer, use jakarta
 import java.io.IOException;
 import java.time.*;
-//import jakarta.servlet.http.*;
 import javax.servlet.http.*;
 import model.Search;
 
