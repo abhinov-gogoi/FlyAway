@@ -1,6 +1,6 @@
 package servlets;
 
-import db.HibernateConnection;
+
 import jakarta.servlet.ServletException;
 //import jakarta.servlet.http.*;
 import javax.servlet.http.*;
