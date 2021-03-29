@@ -7,7 +7,6 @@
     if (Booking.name_on_card.equals("") || Booking.card_details.equals("")) {
         out.println("Please enter valid card details");
     }
-    else {
 %>
 
 <!DOCTYPE html>
@@ -28,7 +27,7 @@
             <img src="img/favicon.png" class="img-fluid" alt="image">
         </div>
         <p align="center"><span><strong>Your ticket has been booked. The summary/details are as follows</strong></span></p>
-        <p><button onclick="window.print()" class="btn btn-success" >Print Ticket</button></p>
+        <p><button onclick="window.print()" class="btn btn-success btn-block" >Print Ticket</button></p>
         <br>
         <h3>Ticket Summary</h3>
         <h4><strong><%=Search.source%> to <%=Search.destination%> | <%=Search.date%> (<%=Search.day%>)</strong></h4>
@@ -43,6 +42,3 @@
     </div>
 </body>
 </html>
-<%
-    }
-%>

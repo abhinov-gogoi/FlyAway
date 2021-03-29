@@ -78,7 +78,7 @@
                     resultSet = statement.executeQuery(sql);
                     while(resultSet.next()){
         %>
-        <tr bgcolor="#F5F5F5">
+        <tr bgcolor="#4a8ee3">
             <td><%=resultSet.getString("flight_id") %></td>
             <td><%=resultSet.getString("name") %></td>
             <td><%=resultSet.getString("source") %></td>
