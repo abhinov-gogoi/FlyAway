@@ -13,7 +13,7 @@ A small flight booking demo project in JAVA
 ## Using the application
 Home displays the application name (FlyAway) and two options - Book Flights and Admin Panel Access
 
-<img width="700" alt="java 8 and prio java 8  array review example" src="https://raw.githubusercontent.com/abhinov-gogoi/FlyAway2/main/screenshots/Homepage.png">
+<img width="720" alt="flyaway-screenshot-homepage" src="https://raw.githubusercontent.com/abhinov-gogoi/FlyAway2/main/screenshots/Homepage.png">
 <br><br>
 Book Flights - <br>
 The user enters flight details (date, source, destination, travellers). 
@@ -34,7 +34,7 @@ Application Server Platform - Tomcat 8.5 with Corretto 11 running on 64bit Amazo
 ## Demo
 Application is hosted here - http://flyaway-env.eba-mwfq779m.ap-south-1.elasticbeanstalk.com/
 
-##Setup
+## Setup
 To run in your localhost - Clone into local and run project on tomcat server. If any issue check artifact is build properly.
 <br><br>
 To deploy on a server use .war file which can be found in out\artifacts\JavaEEWebApp_war\JavaEEWebApp_war.war  
