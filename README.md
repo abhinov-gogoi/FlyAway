@@ -6,6 +6,7 @@
 * [Technologies](#technologies)
 * [Demo](#demo)
 * [Setup](#setup)
+* [Coming Up](#coming-up)
 
 ## General info
 A small flight booking demo project in JAVA
@@ -38,3 +39,9 @@ Application is hosted here - http://flyaway-env.eba-mwfq779m.ap-south-1.elasticb
 To run in your localhost - Clone into local and run project on tomcat server. If any issue check artifact is build properly.
 <br><br>
 To deploy on a server use .war file which can be found in out\artifacts\JavaEEWebApp_war\JavaEEWebApp_war.war  
+
+##Coming Up
+1. Form/Input Validation
+2. Better CSS/Frontend Styles
+3. Add a Flight Feature
+4. Show previous flight bookings
