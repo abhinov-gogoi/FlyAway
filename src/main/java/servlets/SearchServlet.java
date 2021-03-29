@@ -1,6 +1,7 @@
 package servlets;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.time.*;
 import javax.servlet.http.*;
 import model.Search;
@@ -13,9 +14,15 @@ public class SearchServlet extends HttpServlet {
         Search.source = req.getParameter("source");
         Search.destination = req.getParameter("destination");
         Search.persons = Integer.parseInt(req.getParameter("persons"));
-        Search.day = getDay(Search.date);
 
-        resp.sendRedirect("/search-results.jsp");
+        if (Search.date.equals("")) {
+            PrintWriter out = resp.getWriter();
+            out.println("Please enter a valid date");
+        }
+        else {
+            Search.day = getDay(Search.date);
+            resp.sendRedirect("/search-results.jsp");
+        }
     }
 
     public String getDay(String dateInp) {

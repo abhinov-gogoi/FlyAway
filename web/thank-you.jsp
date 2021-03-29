@@ -3,6 +3,11 @@
 <%
     Booking.name_on_card = request.getParameter("name_on_card");
     Booking.card_details = request.getParameter("card_details");
+
+    if (Booking.name_on_card.equals("") || Booking.card_details.equals("")) {
+        out.println("Please enter valid card details");
+    }
+    else {
 %>
 
 <!DOCTYPE html>
@@ -38,3 +43,6 @@
     </div>
 </body>
 </html>
+<%
+    }
+%>

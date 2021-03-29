@@ -9,19 +9,16 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
     body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-
     body, html {
         height: 100%;
         line-height: 1.8;
     }
-
     .bgimg-1 {
         background-position: center;
         background-size: cover;
         background-image: url("img/plane.png");
         min-height: 100%;
     }
-
     .w3-bar .w3-button {
         padding: 16px;
     }

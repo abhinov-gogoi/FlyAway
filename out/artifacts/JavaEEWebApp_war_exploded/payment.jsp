@@ -4,6 +4,13 @@
     Booking.passenger_name = request.getParameter("pname");
     Booking.passenger_email= request.getParameter("email");
     Booking.passenger_phone= request.getParameter("phone");
+
+    if (Booking.passenger_name.equals("")
+            || Booking.passenger_email.equals("")
+            || Booking.passenger_phone.equals("")) {
+        out.println("Please enter valid passenger details");
+    }
+    else {
 %>
 <!DOCTYPE html>
 <html>
@@ -40,3 +47,6 @@
 </div>
 </body>
 </html>
+<%
+    }
+%>
