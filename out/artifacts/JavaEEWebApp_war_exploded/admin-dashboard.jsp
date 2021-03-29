@@ -67,7 +67,7 @@
                     <button type="submit" class="btn btn-info mb-2 btn-danger">Logout</button>
                 </form>
                 <br><br>
-                <p align="center"><span><strong>Flight Database Table</strong></span></p>
+                <p align="center"><span><strong>Flight Table (Database hosted at remotemysql.com)</strong></span></p>
         <%
                 try{
                     connection = DriverManager.getConnection(connectionUrl+dbName, userId, password);
