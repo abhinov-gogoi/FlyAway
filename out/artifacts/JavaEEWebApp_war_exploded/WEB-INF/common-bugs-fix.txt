@@ -13,3 +13,5 @@
         Server: remotemysql.com
         Port: 3306
         These are the username and password to log in to your database and phpMyAdmin
+
+        // Deployment server http://flyaway-env.eba-mwfq779m.ap-south-1.elasticbeanstalk.com/
