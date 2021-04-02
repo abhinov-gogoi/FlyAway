@@ -3,10 +3,15 @@
 
 <%
     String driverName = "com.mysql.jdbc.Driver";
-    String connectionUrl = "jdbc:mysql://remotemysql.com/";
-    String dbName = "XxYrWXRjWf";
-    String userId = "XxYrWXRjWf";
-    String password = "CcEE3g9IWg";
+    String connectionUrl = "jdbc:mysql://flyawaydb.cyp0rsmjgi5q.ap-south-1.rds.amazonaws.com:3306/";
+    String dbName = "flyaway";
+    String userId = "root";
+    String password = "adminadmin";
+//    String driverName = "com.mysql.jdbc.Driver";
+//    String connectionUrl = "jdbc:mysql://remotemysql.com/";
+//    String dbName = "XxYrWXRjWf";
+//    String userId = "XxYrWXRjWf";
+//    String password = "CcEE3g9IWg";
     try {
         Class.forName(driverName);
     } catch (ClassNotFoundException e) {
@@ -102,7 +107,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                <p align="center"><span><strong>Flight Table (Database hosted at remotemysql.com)</strong></span></p>
+                <p align="center"><span><strong> Flight Table (Database hosted at <a href="https://aws.amazon.com/rds/mysql/">AWS RDS for MySQL</a>)</strong></span></p>
                 <%
                     try{
                         connection = DriverManager.getConnection(connectionUrl+dbName, userId, password);
