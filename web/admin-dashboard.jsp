@@ -107,6 +107,9 @@
                 </tr>
                 </thead>
                 <tbody>
+                <p style="text-align:center;">
+                    <img src="${pageContext.request.contextPath}/img/route.png" alt="route">
+                </p>
                 <p align="center"><span><strong> Flight Table (Database hosted at <a href="https://aws.amazon.com/rds/mysql/">AWS RDS for MySQL</a>)</strong></span></p>
                 <%
                     try{
