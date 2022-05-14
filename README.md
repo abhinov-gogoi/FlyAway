@@ -33,10 +33,12 @@ Admin can change his password after Login
 <b>Application Server</b>  - Tomcat 8.5 with Corretto 11 running on 64bit Amazon Linux 2/4.1.6 on AWS Elasticbeanstalk <br>
 
 ## Demo
-Application is hosted here - http://flyaway-env.eba-mwfq779m.ap-south-1.elasticbeanstalk.com/
+Application is hosted here - https://flyaway-abhi.herokuapp.com/
 
 ## Setup
 To run in your localhost - Clone into local and run project on tomcat server. If any issue check artifact is build properly.
+<br>
+Check screenshots for tomcat configuration
 <br><br>
 To deploy on a server use FlyAway.war file.
 
