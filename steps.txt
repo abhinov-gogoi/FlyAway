@@ -1,0 +1,3 @@
+heroku war:deploy out/artifacts/JavaEEWebApp_war/JavaEEWebApp_war.war --app flyaway-abhi
+
+heroku supports only tomcat9 so use javax instead of jakarta

@@ -12,7 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="flyaway" target="11" />
-      <module name="JavaEEWebApp" target="11" />
+      <module name="JavaEEWebApp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
