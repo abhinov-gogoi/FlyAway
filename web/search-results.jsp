@@ -2,10 +2,17 @@
 <%@ page import="model.Search" %>
 <%
     String driverName = "com.mysql.jdbc.Driver";
-    String connectionUrl = "jdbc:mysql://flyawaydb.cyp0rsmjgi5q.ap-south-1.rds.amazonaws.com:3306/";
-    String dbName = "flyaway";
-    String userId = "root";
-    String password = "adminadmin";
+
+//    String connectionUrl = "jdbc:mysql://flyawaydb.cyp0rsmjgi5q.ap-south-1.rds.amazonaws.com:3306/";
+//    String dbName = "flyaway";
+//    String userId = "root";
+//    String password = "adminadmin";
+
+    String connectionUrl = "jdbc:mysql://remotemysql.com/";
+    String dbName = "03ZeLcEdG3";
+    String userId = "03ZeLcEdG3";
+    String password = "TGuPoOIlq9";
+
     String query = Search.getQuery();
     try {
         Class.forName(driverName);

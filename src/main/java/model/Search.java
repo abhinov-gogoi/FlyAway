@@ -8,6 +8,6 @@ public abstract class Search {
     public static int persons;
 
     public static String getQuery() {
-        return "SELECT * FROM flight WHERE source = '"+source+"' AND destination='"+destination+"' AND days='"+day+"'";
+        return "SELECT * FROM flight WHERE source = '"+source+"' AND destination='"+destination+"' AND days like '%"+day+"%'";
     }
 }

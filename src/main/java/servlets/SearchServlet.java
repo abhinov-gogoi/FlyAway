@@ -3,7 +3,10 @@ package servlets;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.time.*;
-import javax.servlet.http.*;
+
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import model.Search;
 
 public class SearchServlet extends HttpServlet {
